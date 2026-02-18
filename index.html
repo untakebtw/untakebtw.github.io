@@ -92,13 +92,17 @@
 
         .footer a { color: #666; text-decoration: none; transition: 0.3s; }
         .footer a:hover { color: #aaa; }
+        a.wallet-item {
+    text-decoration: none;
+    color: var(--accent);
+}
     </style>
 </head>
 <body>
     <div class="card">
         <img src="https://github.com/untakebtw.png" alt="Untake" class="avatar">
-        <h1>Untake</h1>
-        <div class="subtitle">Crypto Portfolio & Bio</div>
+        <h1>untake</h1>
+        <div>class="subtitle">Crypto Portfolio & Bio</div>
         
         <div class="section-title">Main Assets</div>
         <div class="wallet-item" onclick="copyText('bc1qfgr9jqt06h9nnfcs5gsmjp5t90gvjtz43ekhat')">
@@ -126,6 +130,14 @@
             <span class="copy-icon">Copy</span>
         </div>
 
+<div class="section-title">Other</div>
+
+<a class="wallet-item" 
+   href="https://steamcommunity.com/tradeoffer/new/?partner=1822467167&token=X1YommjD"
+   target="_blank">
+    <span class="wallet-name">Steam Trade Offer</span>
+    <span class="copy-icon">Open</span>
+</a>
         <div class="footer">
             Template by <a href="https://github.com/untakebtw" target="_blank">untake</a>
         </div>
